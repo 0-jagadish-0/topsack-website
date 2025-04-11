@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f4ff; color: #333; }
+header { background: #0077cc; color: white; padding: 20px; text-align: center; }
+nav a { color: white; margin: 0 10px; text-decoration: none; }
+main { padding: 20px; }
+footer { background: #003366; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
+.hero { background: #cce5ff; padding: 30px; text-align: center; border-radius: 10px; }
+form { background: white; padding: 20px; border-radius: 8px; max-width: 400px; margin: auto; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
