@@ -29,7 +29,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     });
 });
 
-window.registerUser = function () {
+document.getElementById("register-btn").addEventListener("click", function () {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
@@ -41,4 +41,4 @@ window.registerUser = function () {
     .catch((error) => {
       document.getElementById("message").innerText = error.message;
     });
-};
+});
