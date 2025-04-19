@@ -17,25 +17,26 @@
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Industries</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="#" id="loginLink">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
         <h1>Welcome to TopSack Packaging</h1>
-        <p>Your trusted partner for industrial packaging solutions</p>
+        <p>Your trusted partner for FIBC bags and industrial packaging solutions</p>
         <button onclick="scrollToSection('about')">Learn More</button>
     </section>
 
     <section class="about" id="about">
         <h2>About Us</h2>
-        <p>TopSack is committed to providing the highest quality packaging products...</p>
+        <p>TopSack is dedicated to providing the highest quality industrial packaging products, including FIBC bags for a variety of industries.</p>
     </section>
 
     <section class="products">
         <h2>Our Products</h2>
         <div class="product-card" onclick="showProductDetails('fibc')">
-            <h3>FIBC</h3>
+            <h3>FIBC Bags</h3>
             <p>Flexible Intermediate Bulk Containers</p>
         </div>
         <div class="product-card" onclick="showProductDetails('ground-covers')">
@@ -47,6 +48,15 @@
     <section class="industries">
         <h2>Industries Served</h2>
         <p>We provide packaging solutions for agriculture, construction, and more...</p>
+    </section>
+
+    <section class="login-section" id="loginSection">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
     </section>
 
     <footer>
