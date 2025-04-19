@@ -1,7 +1,66 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f4ff; color: #333; }
-header { background: #0077cc; color: white; padding: 20px; text-align: center; }
-nav a { color: white; margin: 0 10px; text-decoration: none; }
-main { padding: 20px; }
-footer { background: #003366; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
-.hero { background: #cce5ff; padding: 30px; text-align: center; border-radius: 10px; }
-form { background: white; padding: 20px; border-radius: 8px; max-width: 400px; margin: auto; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #0055a5;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+button {
+    background-color: #f4a261;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px;
+}
+
+.product-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
