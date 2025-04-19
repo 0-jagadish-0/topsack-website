@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TopSack - Leading Manufacturer of Industrial Bags</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopSack Packaging</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-  <header>
-    <h1>Welcome to TopSack</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="services.html">Services</a>
-      <a href="crs.html">CRS</a>
-      <a href="contact.html">Contact</a>
-      <a href="login.html">Login</a>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">TopSack</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Hero Section -->
-  <main>
     <section class="hero">
-      <h2>Leading Manufacturer of Industrial Bags</h2>
-      <p>Delivering durable, large-scale packaging solutions worldwide.</p>
-      <a href="contact.html" class="btn">Get in Touch</a>
+        <h1>Welcome to TopSack Packaging</h1>
+        <p>Your trusted partner for industrial packaging solutions</p>
+        <button onclick="scrollToSection('about')">Learn More</button>
     </section>
 
-    <!-- About Section -->
-    <section class="about">
-      <h3>About TopSack</h3>
-      <p>TopSack is the leading provider of industrial packaging solutions. We specialize in manufacturing high-quality, large-scale bags for various industries, providing durable and cost-effective packaging options for our clients worldwide.</p>
-      <p>Founded in [Year], TopSack has been serving the industry for over [X] years. We are committed to providing our customers with the best packaging solutions available, combining quality with efficiency.</p>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>TopSack is committed to providing the highest quality packaging products...</p>
     </section>
 
-    <!-- Services Section -->
-    <section class="services">
-      <h3>Our Services</h3>
-      <ul>
-        <li><strong>Custom Industrial Bags</strong>: We provide tailor-made bags for different industrial needs, ensuring the highest quality and durability.</li>
-        <li><strong>Packaging Solutions</strong>: Offering comprehensive solutions for large-scale packaging, including bulk bags and custom designs.</li>
-        <li><strong>Fast Delivery</strong>: We ensure timely delivery to meet the demands of our clients, no matter the size of the order.</li>
-      </ul>
-      <a href="services.html" class="btn">Explore Our Services</a>
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-card" onclick="showProductDetails('fibc')">
+            <h3>FIBC</h3>
+            <p>Flexible Intermediate Bulk Containers</p>
+        </div>
+        <div class="product-card" onclick="showProductDetails('ground-covers')">
+            <h3>Ground Covers</h3>
+            <p>Durable ground protection solutions</p>
+        </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="cta">
-      <h3>Looking for the Best Packaging Solutions?</h3>
-      <p>Contact us today to discuss your industrial bag needs and get a customized solution tailored to your business.</p>
-      <a href="contact.html" class="btn">Contact Us</a>
+    <section class="industries">
+        <h2>Industries Served</h2>
+        <p>We provide packaging solutions for agriculture, construction, and more...</p>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 TopSack. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>© 2025 TopSack Packaging Pvt. Ltd.</p>
+    </footer>
 </body>
-
 </html>
