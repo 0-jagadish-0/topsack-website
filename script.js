@@ -42,3 +42,14 @@ document.getElementById("register-btn").addEventListener("click", function () {
       document.getElementById("message").innerText = error.message;
     });
 });
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth'
+    });
+}
+
+function showProductDetails(product) {
+    alert(`You clicked on ${product}`);
+}
